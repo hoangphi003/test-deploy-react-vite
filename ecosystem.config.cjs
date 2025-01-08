@@ -2,9 +2,9 @@ module.exports = {
   apps: [
     {
       name: "ReactViteProject",
-      script: "npm run preview",
+      script: "npm run preview -- --host",
     },
   ],
 };
-//  script: "npm",
+//  script: "npm",,
 //       args: "run preview",
